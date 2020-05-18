@@ -37,7 +37,7 @@ app.use((req, res, next) => {
 
 
 // app.use('/', indexRouter);
-app.use('/users/', userRouter);
+app.use('/api/users/', userRouter);
 
 
 
